@@ -1,0 +1,208 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #F3F3F3;
+}
+
+.m-top {
+	margin-top: 70px;
+}
+
+.button-primary {
+	background: #373131;
+	color: #FFDB37;
+}
+
+/* HomePage style start */
+
+
+#banner_image
+{
+    padding-top:155px;
+    padding-bottom:105px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(https://www.360factors.com/blog/wp-content/uploads/2019/10/img-risk-compliance-future-banking-2.jpg) no-repeat center center;
+    background-size:cover;
+    margin-top: 0px !important;
+}
+#banner_content{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+
+
+
+/* HomePage style End */
+
+/* Header Style Start */
+.nav-header {
+	background-color: black;
+	padding-bottom: 0%;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-top: 2%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #FFD837;
+}
+
+.left {
+	margin-left: 15%;
+	color: #FFD837;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.right {
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.navbar-list>li>a {
+	color: #000;
+}
+
+.navbar-list {
+	display: inline;
+	margin: 0;
+}
+
+.navbar-list li {
+	display: inline-block;
+}
+
+.navbar-list li:hover {
+	background: #555;
+}
+
+.navbar-list li:hover ul {
+	display: block;
+}
+
+.navbar-list li ul {
+	position: absolute;
+	display: none;
+}
+
+.navbar-list li ul li {
+	display: block;
+}
+
+.navbar-list li ul li a {
+	display: block !important;
+}
+
+.navbar-list li ul li:hover {
+	background: #555;
+}
+
+.submitLink {
+	background-color: transparent;
+	border: none;
+	color: blue;
+	cursor: pointer;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #333;
+	white-space: nowrap;
+	display: block !important;
+}
+
+submitLink:focus, submitLink:hover {
+	outline: none;
+	color: #262626;
+	text-decoration: none;
+	background-color: #f5f5f5 !important;
+}
+
+/* Header Style End */
+
+/* Footer Style Start */
+.footer {
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 40px;
+}
+
+.fg-color {
+	color: #FFD837;
+	font-weight: bold;
+}
+
+.footer::before {
+	content: '';
+	width: 100%;
+	border-bottom: solid 5px #FFD837;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.footer-row {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+}
+
+/* Footer Style End */
+
+/* Login Page Start */
+div.login {
+	position: relative
+}
+
+div.login {
+	margin: 0;
+	background: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+.top-header {
+	background: black;
+	color: white;
+}
+
+.login {
+	box-sizzing: border-box;
+	border: 2px solid black;
+	padding: 15px;
+	padding-top: 0px;
+}
+
+/* Login Page End */
+.delete-head {
+	padding: 20px;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #eeeeee 0%, #cccccc 100%);
+	/* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #eeeeee 0%, #cccccc 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #eeeeee 0%, #cccccc 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee',
+		endColorstr='#cccccc', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+.table-head {
+	background-color: #FFDB37;
+}
